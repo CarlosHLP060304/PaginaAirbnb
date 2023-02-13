@@ -1,0 +1,76 @@
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+.container-principal{
+    border: solid 5px #000;
+    height: 1000px;
+    width: 1330px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+.gallery{
+    margin:20px 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+.img-1{
+    height:524px;
+    width:670px;
+    border-radius: 10px;
+}
+.sub-gallery{
+    display: flex;
+    margin-left: 10px;
+}
+.subimg{
+    height:260px;
+    width: 300px;
+    border-radius: 10px;
+}
+.ofertas{
+    margin-top: 20px;
+}
+.descrição h2{
+    margin-bottom:10px;
+}
+.icones-preços{
+    display: flex;
+}
+.icones{
+    margin-left: 20px;
+}
+i{
+    font-size: 30px;
+    margin: 15px;
+}
+.preço{
+    border:solid 1px #000;
+    height: 150px;
+    width:400px;
+    padding: 25px;
+    border-radius: 7px;
+    margin-left: 600px;
+    position: relative;
+    bottom: 135px;
+    box-sizing: border-box;
+}
+.noite{
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 92px;
+}
+.preço a{
+    text-decoration: none;
+    color:#000;
+}
+.disponibilidade{
+    background-color: lightgrey;
+    border-radius: 7px;
+    padding: 15px 20px 15px 90px;
+    margin-top: 5px;
+    font-weight: 600;
+}
